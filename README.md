@@ -7,27 +7,27 @@ Um projeto realizado para gerenciar hotspots Wi-Fi utilizando PfSense, FreeRadiu
 
 
 
-## Funcionalidades e integraÃ§Ãµes
+## Funcionalidades e integrações
 
-- Cadastro de UsuÃ¡rios no banco do FreeRadius
-- Rede de visitantes com troca automÃ¡tica do cÃ³digo do Portal Cativo
-- IntegraÃ§Ã£o com Portal Cativo do PfSense
-- Permite utilizaÃ§Ã£o de autenticaÃ§Ã£o via MAC com validaÃ§Ã£o feita pela controladora do AP.
-- Permite controle de banda e separaÃ§Ã£o por VLANs das redes criadas.
+- Cadastro de Usuários no banco do FreeRadius
+- Rede de visitantes com troca automática do código do Portal Cativo
+- Integração com Portal Cativo do PfSense
+- Permite utilização de autenticação via MAC com validação feita pela controladora do AP.
+- Permite controle de banda e separação por VLANs das redes criadas.
 ## Requisitos
 
-- PfSense, OPNSense ou algum firewall ou equipamento que possua portal cativo personalizÃ¡vel.
+- PfSense, OPNSense ou algum firewall ou equipamento que possua portal cativo personalizável.
 
-- APs ou Roteadores que possuam controladoras gerenciÃ¡veis para inserir as informaÃ§Ãµes do servidor RADIUS e as VLANs.
+- APs ou Roteadores que possuam controladoras gerenciáveis para inserir as informações do servidor RADIUS e as VLANs.
 
-- Servidor Linux com todos pacotes LAMP para salvar as informaÃ§Ãµes do FreeRadius e as informaÃ§Ãµes do Portal Administrativo, alÃ©m de executar o sistema de gestÃ£o.
+- Servidor Linux com todos pacotes LAMP para salvar as informações do FreeRadius e as informações do Portal Administrativo, além de executar o sistema de gestão.
 
-## InstalaÃ§Ã£o do portal administrativo
+## Instalação do portal administrativo
 
-1. Instalar e configurar o firewall ou Roteador em questÃ£o com as VLANs e os portais cativos necessÃ¡rios.
+1. Instalar e configurar o firewall ou Roteador em questão com as VLANs e os portais cativos necessários.
 
 2. Importar os bancos de dados exemplos para o MySQL que vai executar o portal administrativo.
 
-3. Configurar as informaÃ§Ãµes do banco de dados no arquivo funcoes.php
+3. Configurar as informações do banco de dados no arquivo funcoes.php
 
-4. Colocar os arquivos no diretÃ³rio do servidor Web, a CPF padrÃ£o para acesso Ã© "00000000000" e a senha Ã© "admin".
+4. Colocar os arquivos no diretório do servidor Web, a CPF padrão para acesso é "00000000000" e a senha é "admin".
